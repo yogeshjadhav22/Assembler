@@ -1,0 +1,20 @@
+--Symbol Table--
+line_number		sym_no		symbol		def/undef	section		size		values   
+	2		sym_1		num1		D		data		20		num1 dd 10,20,30,40,50
+
+	3		sym_2		gaur		D		data		4		gaur db 'this is string'
+
+	4		sym_3		num2		D		data		8		num2 dd  100,20
+
+	5		sym_4		msg1		D		data		2		msg1 db 'my name is yogesh'
+
+	6		sym_5		num3		D		data		16		num3 dd 10,20,30,40
+
+	8		sym_6		n1		D		bss		4		-
+
+	9		sym_7		n2		D		bss		4		-
+
+	12		sym_8		main		U		text		-		-
+
+	28		sym_9		call		U		text		-		-
+
